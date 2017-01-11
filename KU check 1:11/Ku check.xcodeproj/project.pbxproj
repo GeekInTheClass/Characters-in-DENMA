@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CBB954B1E261A4C00762B5F /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB954A1E261A4C00762B5F /* UIViewController+Navigation.swift */; };
 		6CF2B9C51E1F614B00A8D1C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C41E1F614B00A8D1C0 /* AppDelegate.swift */; };
 		6CF2B9C71E1F614B00A8D1C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C61E1F614B00A8D1C0 /* ViewController.swift */; };
 		6CF2B9CA1E1F614B00A8D1C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C81E1F614B00A8D1C0 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		6CF2B9CF1E1F614B00A8D1C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF2B9CD1E1F614B00A8D1C0 /* LaunchScreen.storyboard */; };
 		6CF2B9DA1E1F614B00A8D1C0 /* Ku_checkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9D91E1F614B00A8D1C0 /* Ku_checkTests.swift */; };
 		6CF2B9E51E1F614B00A8D1C0 /* Ku_checkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9E41E1F614B00A8D1C0 /* Ku_checkUITests.swift */; };
-		6CF2B9F51E1F671600A8D1C0 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9F41E1F671600A8D1C0 /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CBB954A1E261A4C00762B5F /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../../../Desktop/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		6CF2B9C11E1F614B00A8D1C0 /* Ku check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ku check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF2B9C41E1F614B00A8D1C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CF2B9C61E1F614B00A8D1C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		6CF2B9E01E1F614B00A8D1C0 /* Ku checkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ku checkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF2B9E41E1F614B00A8D1C0 /* Ku_checkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ku_checkUITests.swift; sourceTree = "<group>"; };
 		6CF2B9E61E1F614B00A8D1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CF2B9F41E1F671600A8D1C0 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../../Documents/PilotPlant/Sources/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				6CF2B9C41E1F614B00A8D1C0 /* AppDelegate.swift */,
 				6CF2B9C61E1F614B00A8D1C0 /* ViewController.swift */,
-				6CF2B9F41E1F671600A8D1C0 /* UIViewController+Navigation.swift */,
+				1CBB954A1E261A4C00762B5F /* UIViewController+Navigation.swift */,
 				6CF2B9C81E1F614B00A8D1C0 /* Main.storyboard */,
 				6CF2B9CB1E1F614B00A8D1C0 /* Assets.xcassets */,
 				6CF2B9CD1E1F614B00A8D1C0 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF2B9F51E1F671600A8D1C0 /* UIViewController+Navigation.swift in Sources */,
+				1CBB954B1E261A4C00762B5F /* UIViewController+Navigation.swift in Sources */,
 				6CF2B9C71E1F614B00A8D1C0 /* ViewController.swift in Sources */,
 				6CF2B9C51E1F614B00A8D1C0 /* AppDelegate.swift in Sources */,
 			);
@@ -509,6 +509,7 @@
 				6CF2B9EB1E1F614B00A8D1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CF2B9EC1E1F614B00A8D1C0 /* Build configuration list for PBXNativeTarget "Ku checkTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				6CF2B9EE1E1F614B00A8D1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CF2B9EF1E1F614B00A8D1C0 /* Build configuration list for PBXNativeTarget "Ku checkUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				6CF2B9F11E1F614B00A8D1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
