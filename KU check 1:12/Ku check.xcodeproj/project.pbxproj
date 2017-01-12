@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CBB954B1E261A4C00762B5F /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB954A1E261A4C00762B5F /* UIViewController+Navigation.swift */; };
-		6CF2B9C51E1F614B00A8D1C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C41E1F614B00A8D1C0 /* AppDelegate.swift */; };
-		6CF2B9C71E1F614B00A8D1C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C61E1F614B00A8D1C0 /* ViewController.swift */; };
+		1CE985571E275949007CB320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C41E1F614B00A8D1C0 /* AppDelegate.swift */; };
+		1CE985581E27594B007CB320 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB954A1E261A4C00762B5F /* UIViewController+Navigation.swift */; };
+		1CE9855C1E2759F8007CB320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C61E1F614B00A8D1C0 /* ViewController.swift */; };
+		1CE985671E275B5F007CB320 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9855D1E275B5F007CB320 /* CHContentViewController.swift */; };
+		1CE985681E275B5F007CB320 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9855E1E275B5F007CB320 /* CHControls.swift */; };
+		1CE985691E275B5F007CB320 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9855F1E275B5F007CB320 /* CHModalViewController.swift */; };
+		1CE9856A1E275B5F007CB320 /* CHPagingScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE985601E275B5F007CB320 /* CHPagingScrollViewController.swift */; };
+		1CE9856B1E275B5F007CB320 /* CHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE985611E275B5F007CB320 /* CHPickerViewController.swift */; };
+		1CE9856C1E275B5F007CB320 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE985621E275B5F007CB320 /* DrawingCanvasView.swift */; };
+		1CE9856D1E275B5F007CB320 /* FIlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE985631E275B5F007CB320 /* FIlters.swift */; };
+		1CE9856E1E275B5F007CB320 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE985641E275B5F007CB320 /* NavigationControllers.swift */; };
+		1CE9856F1E275B5F007CB320 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE985651E275B5F007CB320 /* RecordButton.swift */; };
+		1CE985721E275B70007CB320 /* CityPicker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CE985711E275B70007CB320 /* CityPicker.plist */; };
 		6CF2B9CA1E1F614B00A8D1C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF2B9C81E1F614B00A8D1C0 /* Main.storyboard */; };
 		6CF2B9CC1E1F614B00A8D1C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF2B9CB1E1F614B00A8D1C0 /* Assets.xcassets */; };
 		6CF2B9CF1E1F614B00A8D1C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF2B9CD1E1F614B00A8D1C0 /* LaunchScreen.storyboard */; };
@@ -36,6 +46,16 @@
 
 /* Begin PBXFileReference section */
 		1CBB954A1E261A4C00762B5F /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../../../Desktop/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		1CE9855D1E275B5F007CB320 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHContentViewController.swift; path = ../../../PilotPlant/Sources/CHContentViewController.swift; sourceTree = "<group>"; };
+		1CE9855E1E275B5F007CB320 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHControls.swift; path = ../../../PilotPlant/Sources/CHControls.swift; sourceTree = "<group>"; };
+		1CE9855F1E275B5F007CB320 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHModalViewController.swift; path = ../../../PilotPlant/Sources/CHModalViewController.swift; sourceTree = "<group>"; };
+		1CE985601E275B5F007CB320 /* CHPagingScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHPagingScrollViewController.swift; path = ../../../PilotPlant/Sources/CHPagingScrollViewController.swift; sourceTree = "<group>"; };
+		1CE985611E275B5F007CB320 /* CHPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHPickerViewController.swift; path = ../../../PilotPlant/Sources/CHPickerViewController.swift; sourceTree = "<group>"; };
+		1CE985621E275B5F007CB320 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingCanvasView.swift; path = ../../../PilotPlant/Sources/DrawingCanvasView.swift; sourceTree = "<group>"; };
+		1CE985631E275B5F007CB320 /* FIlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FIlters.swift; path = ../../../PilotPlant/Sources/FIlters.swift; sourceTree = "<group>"; };
+		1CE985641E275B5F007CB320 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationControllers.swift; path = ../../../PilotPlant/Sources/NavigationControllers.swift; sourceTree = "<group>"; };
+		1CE985651E275B5F007CB320 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordButton.swift; path = ../../../PilotPlant/Sources/RecordButton.swift; sourceTree = "<group>"; };
+		1CE985711E275B70007CB320 /* CityPicker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CityPicker.plist; path = ../../PilotPlantCatalog/PilotPlantCatalog/CityPicker.plist; sourceTree = "<group>"; };
 		6CF2B9C11E1F614B00A8D1C0 /* Ku check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ku check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF2B9C41E1F614B00A8D1C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CF2B9C61E1F614B00A8D1C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +103,7 @@
 				6CF2B9D81E1F614B00A8D1C0 /* Ku checkTests */,
 				6CF2B9E31E1F614B00A8D1C0 /* Ku checkUITests */,
 				6CF2B9C21E1F614B00A8D1C0 /* Products */,
+				1CE985711E275B70007CB320 /* CityPicker.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,15 @@
 		6CF2B9C31E1F614B00A8D1C0 /* Ku check */ = {
 			isa = PBXGroup;
 			children = (
+				1CE9855D1E275B5F007CB320 /* CHContentViewController.swift */,
+				1CE9855E1E275B5F007CB320 /* CHControls.swift */,
+				1CE9855F1E275B5F007CB320 /* CHModalViewController.swift */,
+				1CE985601E275B5F007CB320 /* CHPagingScrollViewController.swift */,
+				1CE985611E275B5F007CB320 /* CHPickerViewController.swift */,
+				1CE985621E275B5F007CB320 /* DrawingCanvasView.swift */,
+				1CE985631E275B5F007CB320 /* FIlters.swift */,
+				1CE985641E275B5F007CB320 /* NavigationControllers.swift */,
+				1CE985651E275B5F007CB320 /* RecordButton.swift */,
 				6CF2B9C41E1F614B00A8D1C0 /* AppDelegate.swift */,
 				6CF2B9C61E1F614B00A8D1C0 /* ViewController.swift */,
 				1CBB954A1E261A4C00762B5F /* UIViewController+Navigation.swift */,
@@ -236,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CF2B9CF1E1F614B00A8D1C0 /* LaunchScreen.storyboard in Resources */,
+				1CE985721E275B70007CB320 /* CityPicker.plist in Resources */,
 				6CF2B9CC1E1F614B00A8D1C0 /* Assets.xcassets in Resources */,
 				6CF2B9CA1E1F614B00A8D1C0 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CBB954B1E261A4C00762B5F /* UIViewController+Navigation.swift in Sources */,
-				6CF2B9C71E1F614B00A8D1C0 /* ViewController.swift in Sources */,
-				6CF2B9C51E1F614B00A8D1C0 /* AppDelegate.swift in Sources */,
+				1CE9856A1E275B5F007CB320 /* CHPagingScrollViewController.swift in Sources */,
+				1CE9855C1E2759F8007CB320 /* ViewController.swift in Sources */,
+				1CE985671E275B5F007CB320 /* CHContentViewController.swift in Sources */,
+				1CE9856E1E275B5F007CB320 /* NavigationControllers.swift in Sources */,
+				1CE985681E275B5F007CB320 /* CHControls.swift in Sources */,
+				1CE985581E27594B007CB320 /* UIViewController+Navigation.swift in Sources */,
+				1CE9856C1E275B5F007CB320 /* DrawingCanvasView.swift in Sources */,
+				1CE985571E275949007CB320 /* AppDelegate.swift in Sources */,
+				1CE9856F1E275B5F007CB320 /* RecordButton.swift in Sources */,
+				1CE9856D1E275B5F007CB320 /* FIlters.swift in Sources */,
+				1CE985691E275B5F007CB320 /* CHModalViewController.swift in Sources */,
+				1CE9856B1E275B5F007CB320 /* CHPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
