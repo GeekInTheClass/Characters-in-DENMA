@@ -32,13 +32,6 @@
                                     <segue destination="1d9-m6-dXJ" kind="show" animates="NO" id="R4C-fT-fCV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kom-0q-xS8">
-                                <rect key="frame" x="83" y="373" width="197" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="Y6d-ts-dVt" kind="presentation" id="rEq-iO-hkp"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -67,40 +60,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWR-kH-iSf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2937" y="124"/>
-        </scene>
-        <!--Alert Scene-->
-        <scene sceneID="BVs-se-tDa">
-            <objects>
-                <viewController id="Y6d-ts-dVt" customClass="AlertScene" customModule="Ku_check" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Kkp-mh-Av5"/>
-                        <viewControllerLayoutGuide type="bottom" id="PNC-ZL-C9c"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="I5f-0J-L1s">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34n-Tk-MUo">
-                                <rect key="frame" x="23" y="46" width="88" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="완료"/>
-                                <connections>
-                                    <action selector="modalDismiss:" destination="Y6d-ts-dVt" eventType="touchUpInside" id="b1h-g0-Qct"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="message" value="출석하시겠습니까?"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="redButton" value="아니오"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="buttonNames" value="예"/>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="alertStyle" value="YES"/>
-                    </userDefinedRuntimeAttributes>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dp9-3b-TEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2572" y="662.51874062968523"/>
         </scene>
         <!--오늘-->
         <scene sceneID="hIh-Uv-HhP">
@@ -199,24 +158,24 @@
                                         <rect key="frame" x="0.0" y="44" width="375" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ccq-QU-lP0" id="IhO-57-we7">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="cT4-bN-Csz">
-                                                    <rect key="frame" x="0.0" y="5" width="375" height="60"/>
+                                                    <rect key="frame" x="0.0" y="4" width="375" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="13J-Hi-nIR" kind="show" id="bge-kB-iJG"/>
+                                            <segue destination="13J-Hi-nIR" kind="show" id="wLX-vH-v9A"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="eXs-ie-FCm">
                                         <rect key="frame" x="0.0" y="114" width="375" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eXs-ie-FCm" id="NFp-I3-EaH">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Jep-Zl-ocz">
@@ -246,7 +205,7 @@
         <!--View Controller-->
         <scene sceneID="z9a-Cn-MOb">
             <objects>
-                <viewController id="13J-Hi-nIR" customClass="ViewController" customModule="Ku_check" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="13J-Hi-nIR" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3wB-Dy-DWS"/>
                         <viewControllerLayoutGuide type="bottom" id="zhg-ug-zP5"/>
@@ -262,13 +221,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="U2v-hf-m7o">
-                                <rect key="frame" x="0.0" y="225" width="375" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <date key="date" timeIntervalSinceReferenceDate="505900711.58776098">
-                                    <!--2017-01-12 07:58:31 +0000-->
-                                </date>
-                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
